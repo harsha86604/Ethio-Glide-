@@ -8,7 +8,7 @@ import path from "path"
 
 
 export default defineConfig({
-  base: '/Ethio-Glide-/',  // ← ADD THIS (repo name + slash)
+  base: '/Ethio-Glide-/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
